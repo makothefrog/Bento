@@ -11,7 +11,7 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'Mako',
+	name: 'mako',
 	imageBackground: false,
 	openInNewTab: true,
 	twelveHourFormat: true,
