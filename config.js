@@ -11,10 +11,10 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Mako',
 	imageBackground: false,
 	openInNewTab: true,
-	twelveHourFormat: false,
+	twelveHourFormat: true,
 
 	// Greetings
 	greetingMorning: 'Good morning!',
@@ -26,17 +26,17 @@ const CONFIG = {
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
+	weatherKey: '557209dea7e6a0b39a652c56dfb747b4', // Write here your API Key
+	weatherIcons: 'Dark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '36.974117',
+	defaultLongitude: '-122.030792',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
 	changeThemeByOS: true,
@@ -92,7 +92,7 @@ const CONFIG = {
 	secondButtonsContainer: [
 		{
 			id: '1',
-			name: 'Music',
+			name: 'music',
 			icon: 'headphones',
 			link: 'https://open.spotify.com',
 		},
@@ -135,16 +135,16 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'component',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Lectures',
+					link: 'https://www.youtube.com/playlist?list=PLmU0FIlJY-MlFAojfH2wGVuRcRES8xVKN',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Socratica',
+					link: 'https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6',
 				},
 				{
 					name: 'Oldies',
