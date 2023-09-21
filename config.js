@@ -27,7 +27,7 @@ const CONFIG = {
 
 	// Weather
 	weatherKey: '557209dea7e6a0b39a652c56dfb747b4', // Write here your API Key
-	weatherIcons: 'White', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Dark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'F', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -140,19 +140,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Lectures',
-					link: 'https://www.youtube.com/playlist?list=PLmU0FIlJY-MlFAojfH2wGVuRcRES8xVKN',
+					link: 'https://www.youtube.com/playlist?list=PLmU0FIlJY-Mn3Pt-r5zQ_-Ar8mAnBZTf2',
 				},
 				{
 					name: 'Socratica',
 					link: 'https://www.youtube.com/playlist?list=PLi01XoE8jYoi3SgnnGorR_XOW3IcK-TP6',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Udemy',
+					link: 'https://www.udemy.com/course/abstract-algebra-group-theory-with-the-math-sorcerer/learn/lecture/15015414?start=0#overview',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Refresher',
+					link: 'https://math.dartmouth.edu/~trs/PreTeXtProjects/abstract-algebra-refresher-CLI/output/web/aar.html',
 				},
 			],
 		},
@@ -161,20 +161,20 @@ const CONFIG = {
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Lectures',
+					link: 'https://www.youtube.com/playlist?list=PLBh2i93oe2quLc5zaxD0WHzQTGrXMwAI6',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Brightside',
+					link: 'https://thebrightsideofmathematics.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'Campanion',
+					link: 'https://math.dartmouth.edu/~trs/PreTeXtProjects/UGLinearAlgebraCompanion-CLI/output/web/lac.html',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Essence',
+					link: 'https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab',
 				},
 			],
 		},
