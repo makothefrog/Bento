@@ -59,9 +59,9 @@ const CONFIG = {
 		},
 		{
 			id: '2',
-			name: 'Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
+			name: 'NextDNS',
+			icon: 'shield',
+			link: 'https://my.nextdns.io',
 		},
 		{
 			id: '3',
